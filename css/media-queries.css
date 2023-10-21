@@ -1,0 +1,273 @@
+@media screen and (max-width: 991px){
+
+    .navbar{
+        height: 70px;
+    }
+
+    .nav-links ul {
+        gap: 5px;
+        padding-right: 0px;
+    }
+    .nav-links ul li a {
+        font-size: 0.9rem;
+    }
+
+   .logo img {
+        width: 140px;
+    }
+
+    .header-section span {
+        font-size: 2.5rem;
+    }
+
+    .dynamic-txt li {
+        top: -19px;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .my-info {
+        align-items: center;
+    }
+    .my-info h2 {
+        font-size: 2.5rem;
+    }
+
+    .resume button {
+        width: 500px;
+    }
+    
+    .services-card-area {
+        gap: 50px;
+    }
+
+    .service-card {
+        height: 330px;
+        width: 200px;
+        background-position: top;
+        gap: 20px;
+    }
+
+    .content h3{
+        font-size: 1rem;
+    }
+
+    .content p {
+        font-size: 0.65rem;
+    }
+
+    .fa-5x {
+        font-size: 2rem;
+    }
+
+    .form{
+        gap: 0;
+    }
+    
+    
+    .footer-content p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 767px) 
+{
+
+    .header-section span {
+        font-size: 2rem;
+    }
+
+    .resume button {
+        width: 400px;
+    }
+
+    .about-section{
+        padding-inline: 40px;
+       }
+
+    .services-card-area {
+        flex-direction: column;
+    }
+    
+   .my-info{
+    gap: 30px;
+   }
+
+    .my-info p{
+        text-align: justify;
+    }
+    
+    .service-card {
+        height: 350px;
+        width: 250px;
+    }
+    
+    .content h3 {
+        font-size: 1.5rem;
+    }
+    
+    .content p {
+        font-size: 0.8rem;
+    }
+    
+    .dynamic-txt li {
+        top: -25px;
+    }
+
+    .wrapper .dynamic-txt {
+        line-height: 93px;
+    }
+
+    .wrapper .dynamic-txt {
+        height: 65px;
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        align-items: flex-start;
+    }
+   
+
+    .navbar{
+        overflow: initial;
+    }
+
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%; 
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-links.active{
+        left: 0;
+        background-color: rgb(248, 248, 248);
+       box-shadow:  1px 5px 12px 0px #dbd2d2;
+    }
+    .nav-links ul{
+        flex-direction: column;
+    }
+
+    .nav-toggle{
+        display: block;
+        margin-right: 20px ;
+    }
+
+    .Contact-section {
+        padding-block: 50px;
+        padding-inline: 25px ;
+    }
+
+    .form{
+        padding-inline: 0;
+    }
+
+    
+.service-card:hover ,
+.service-card.touch-hover:focus {
+    transform: scale(1.1);
+
+}
+
+
+.project-card:hover ,
+.project-card.touch-hover:focus{
+
+    .layer {
+        height: 350px;
+    }
+
+}
+
+
+}
+@media screen and (max-width: 479px) {
+    .logo img {
+        width: 130px;
+    }
+
+   .about-section{
+    padding-inline: 20px;
+   }
+    .my-image a{
+        height: 200px;
+        width: 200px;
+    }
+
+    .my-info h2 {
+        font-size: 2.2rem;
+    }
+
+    .my-info p {
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+    .resume button {
+        width: 270px;
+    }
+
+    .service-container h1 , .project-section h1 ,.contact h1{
+        font-size: 2.5rem;
+    }
+
+    .service-container{
+        padding: 40px;
+    }
+
+    .project-section {
+        padding-block: 60px;
+        padding-inline: 20px;
+    }
+    
+    
+    .form button{
+        width: 118px;
+        padding-inline: 0;
+    }
+
+    form{
+        padding-inline: 20px;
+        width: 100%;
+    }
+
+    .project-card{
+        background-image: url('../assests/usability.png'); 
+        background-position: center;
+    }
+    .project-card:nth-child(2){
+        background-image: url('../assests/shop\ me.png'); 
+        background-position: center;
+    }
+    .project-card:nth-child(3){
+        background-image: url('../assests/desert\ touring.png'); 
+        background-position: center;
+    }
+    .project-card:nth-child(4){
+        background-image: url('../assests/social.png'); 
+        background-position: center;
+    }
+   
+    
+}
+
+@media screen and (max-width: 355px) {
+    .service-container {
+        padding-inline: 20px;
+    }
+
+    .project-section {
+        padding-block: 60px;
+        padding-inline: 10px;
+    }
+    
+    .Contact-section {
+        padding-block: 50px;
+        padding-inline: 25px;
+        padding-block-end: 15px;
+    }
+
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murtaza Ali Qazi</title>
+    <link rel="icon" type="image/x-icon" href="../assests/logoname.png" >
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   
+
+</head>
+
+<body>
+
+    <!-- NAVBAR  -->
+
+    <nav class="prim-color-bg text-light">
+        <div class="container navbar flex">
+            <a href="#home" class="logo">
+                <img src="../assests/logoname.png" alt="">
+            </a>
+            <div class="nav-links" id="nav-links">
+                <ul class="flex">
+                    <li><a href="#home" class="hover-links">Home</a></li>
+                    <li><a href="#about" class="hover-links">About</a></li>
+                    <li><a href="#Myskills" class="hover-links">Services</a></li>
+                    <li><a href="#myProject" class="hover-links">Projects</a></li>
+                    <li><a href="#mycontact" class="hover-links">Contact</a></li>
+                </ul>
+            </div>
+            <a href="#" class=" nav-toggle hover-links" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container header-section flex" id="home">
+            <span>Hey there, I'm <span class="My_name">Sabih Ul Hassan</span>
+                all the way from Pakistan.</span>
+        </div>
+    </header>
+
+    <!-- About section -->
+
+    <section class="about-section " id="about">
+        <div class="container flex about-container">
+            <div class="my-image">
+                <a href="/assests/my-pic.JPG" target="_blank"></a>
+            </div>
+            <div class="my-info flex">
+                <h2>About Me</h2>
+                <p>"Hello, I'm Sabih Ul Hassan, student of SZABIST institute of science and technology. I'm a passionate individual with a diverse set of skills and interests. I have a strong foundation in programming languages such as C, Java, and Python. My expertise extends to web development, where I'm proficient in HTML, CSS, and JavaScript. Beyond the world of coding, I have a unique background as a professional choreographer. While dance is a personal passion, I've decided to channel my energy and enthusiasm into a career in computer science. I believe that my creative mindset from choreography, combined with my technical skills, brings a fresh and innovative approach to problem-solving in the world of technology. Whether it's crafting elegant lines of code or creating captivating dance routines, I find joy in the process of bringing ideas to life. I am excited about the possibilities in the ever-evolving field of computer science and am committed to continuous learning and growth."</p></p>
+
+                <div class="my-contact flex">
+                    <a href="https://github.com/iamsabby" target="_blank"><i class="fa-brands fa-github fa-2x"
+                            style="color: #183b56; "></i> </a>
+                    <a href="https://www.linkedin.com/in/sabih-ul-hassan-23977327b" target="_blank"><i
+                            class="fa-brands fa-linkedin fa-2x" style="color: #183b56;"></i></a>
+                    <a href="mailto:sohailsabby@gmail.com"><i
+                            class="fa-regular fa-envelope fa-2x" style="color: #183b56;"></i></a>
+
+                        </div>
+                <div class="resume">
+                    <a href="assests/CV.pdf" target="_blank" class="primary-button">Open Resume</a>
+                    <!-- <button type="button" onclick="downloadFile()" class="primary-button"> Download Resume </button> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sevices section -->
+
+    <section class="services " id="Myskills">
+        <div class="container flex service-container">
+            <h1>
+                My Services
+            </h1>
+            <div class="services-card-area flex">
+                <div class="service-card flex">
+                    <i class="fa-solid fa-cube fa-5x" style="color: #ffffff;"></i>
+                    <div class="content">
+                        <h3>Coding</h3>
+                        <p>Coding enthusiast since childhood, specializing in Java and C. My strength lies in logic
+                            building to tackle complex problems, and I'm dedicated to pushing tech boundaries.</p>
+                    </div>
+                </div>
+                <div class="service-card flex">
+                    <i class="fa-solid fa-layer-group fa-5x" style="color: #ffffff;"></i>
+                    <div class="content">
+                        <h3>Web Development</h3>
+                        <p>Web developer since 2021, I've completed numerous freelancing projects. Passionate about
+                            crafting user-friendly, dynamic websites and eager to take on new challenges in the field.
+                        </p>
+                    </div>
+                </div>
+                <div class="service-card flex">
+                    <i class="fa-solid fa-magnifying-glass-chart fa-5x" style="color: #ffffff; "></i>
+                    <div class="content">
+                        <h3>Choreography</h3>
+                        <p>I'm actively learning trading due to its vast potential. Excited about the financial markets
+                            and constantly seeking knowledge and opportunities in this field.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me  -->
+
+    <section class="Contact-section" id="mycontact">
+        <div class="container contact">
+            <h1>Contact Me</h1>
+            <div class="form flex">
+                <form method="post" action="https://formspree.io/f/xqkvwzwb" target="_blank" autocomplete="off" id="details">
+                    <div class="input-group">
+                        <input type="text" id="name" name="Name" autocomplete="off" required>
+                        <label for="name"><i class="fa-solid fa-user"></i>Your Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" id="number" name="Phone No." required>
+                        <label for="number"><i class="fa-solid fa-phone"></i>Phone No.</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email-id" name="Email-Id"  required style="
+                        input:valid~label
+                        {
+                            top: -35px;
+                            font-size: 1rem;
+                        }">
+                        <label for="email-id"><i class="fa-solid fa-envelope"></i>Email Id</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="5" name="Message"style="font-family: 'Poppins', sans-serif ; font-weight: 200;"style="font-family: 'Poppins', sans-serif ; font-weight: 200;" required></textarea>
+                        <label for="message"><i class="fa-solid fa-comments"></i>Your Message</label>
+                    </div>
+                    <button type="submit" class="primary-button" id="submit">Submit <span style="margin-inline: 2px;"></span><i
+                            class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+        <div class="footer-section">
+            <div class="container footer-content">
+                <p>&copy;2023 Sabih Ul Hassan,Inc. All Right Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    
+
+
+
+    <!-- Js part -->
+
+    <script src="https://kit.fontawesome.com/5d4d625b69.js" crossorigin="anonymous"></script>
+    
+    <script>
+
+        const toggleButton = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        toggleButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Get all the nav-links within the navbar
+        const navLinksList = navLinks.querySelectorAll('a');
+
+        // Add a click event listener to each nav-link
+        navLinksList.forEach((link) => {
+            link.addEventListener('click', () => {
+                // Remove the 'active' class from the navbar
+                navLinks.classList.remove('active');
+            });
+        });
+
+        document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href').substring(1); // Get the target section id
+        const targetSection = document.getElementById(targetId);
+
+        if (targetSection) {
+            targetSection.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+document.getElementById('details').addEventListener('submit', function(event) {
+      
+      setTimeout(function() {
+        window.location.reload();
+      }, 2000); 
+    });
+  
+    // Get all elements with the class .project-card
+const projectCards = document.querySelectorAll('.project-card','.service-card');
+
+// Loop through each project card and add event listeners
+projectCards.forEach(function(element) {
+  // Add a touchstart event listener to toggle the touch-hover class
+  element.addEventListener('touchstart', function() {
+    element.classList.add('touch-hover');
+  });
+
+  // Remove the touch-hover class when the touch ends
+  element.addEventListener('touchend', function() {
+    element.classList.remove('touch-hover');
+  });
+});
+
+
+
+
+    
+</script>
+
+
+
+</body>
+
+</html>
